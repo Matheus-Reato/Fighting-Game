@@ -128,7 +128,6 @@ class Fighter extends Sprite {
     switchSprite(sprite){
         if (this.image === this.sprites.death.image) {
             if (this.frameCurrent === this.sprites.death.framesMax - 1){
-                console.log('entrou no if')
                 this.dead = true
             }
               
